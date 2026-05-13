@@ -7,15 +7,14 @@
     "dev": "vite dev",
     "start": "vite dev",
     "build": "vite build",
+    "build:pages": "vite build && node scripts/prepare-pages.mjs",
     "build:dev": "vite build --mode development",
+    "deploy": "npm run build:pages",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.83.0",
-    "@tanstack/react-router": "^1.168.25",
-    "@tanstack/react-start": "^1.167.50",
     "lucide-react": "^0.575.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

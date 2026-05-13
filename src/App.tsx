@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { TrustIndicators } from "@/components/TrustIndicators";
@@ -10,28 +9,9 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { useReveal } from "@/hooks/useReveal";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Novaris Facility Management - Premium Gebäudereinigung Stuttgart" },
-      {
-        name: "description",
-        content:
-          "Novaris Facility Management - Premium Gebäudereinigung für Gewerbe und Privat in Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung.",
-      },
-      { property: "og:title", content: "Novaris Facility Management - Premium Gebäudereinigung" },
-      {
-        property: "og:description",
-        content:
-          "Hochwertige Reinigungslösungen für Unternehmen, Wohnanlagen und Privathaushalte im Raum Stuttgart.",
-      },
-    ],
-  }),
-  component: Index,
-});
-
-function Index() {
+export function App() {
   useReveal();
+
   return (
     <div className="min-h-screen bg-background">
       <Navbar />

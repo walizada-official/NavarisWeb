@@ -26,9 +26,6 @@ build/
 .env.*
 !.env.example
 *.local
-
-# Wrangler / Cloudflare
-.wrangler/
 .dev.vars
 
 # Caches and coverage
