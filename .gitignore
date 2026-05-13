@@ -11,7 +11,7 @@ lerna-debug.log*
 node_modules/
 
 # Build output and generated framework files
-dist/
+#dist/
 dist-ssr/
 build/
 .output/
