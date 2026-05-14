@@ -33,10 +33,11 @@ export function TrustIndicators() {
               Gebäudereinigung
             </span>
             <h2 className="mt-5 max-w-xl font-display text-3xl font-bold leading-tight text-foreground md:text-5xl">
-                Zuverlässige Reinigung mit festen Qualitätsstandards.
+              Zuverlässige Reinigung mit festen Qualitätsstandards.
             </h2>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
-              Wir reinigen Büros, Wohnanlagen, Treppenhäuser und Glasflächen zuverlässig, hygienisch und individuell abgestimmt auf Ihr Objekt.
+              Wir reinigen Büros, Wohnanlagen, Treppenhäuser und Glasflächen zuverlässig, hygienisch
+              und individuell abgestimmt auf Ihr Objekt.
             </p>
           </div>
 
