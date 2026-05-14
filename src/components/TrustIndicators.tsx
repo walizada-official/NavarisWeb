@@ -1,25 +1,25 @@
-import { ClipboardCheck, KeyRound, ShieldCheck, UserRoundCheck } from "lucide-react";
+import { ClipboardCheck, Home, ShieldCheck, User } from "lucide-react";
 
 const items = [
   {
     icon: ClipboardCheck,
-    title: "Objektbezogener Reinigungsplan",
-    desc: "Wir stimmen Reinigungsrhythmus, Zeiten und Leistungen exakt auf Ihr Objekt ab.",
+    title: "Individuelle Reinigungskonzepte",
+    desc: "Wir erstellen einen Reinigungsplan, der exakt auf Ihre Anforderungen und Ihr Objekt abgestimmt ist.",
   },
   {
-    icon: KeyRound,
-    title: "Saubere Arbeits- und Wohnbereiche",
-    desc: "Böden, Oberflächen, Sanitärbereiche und Gemeinschaftsflächen bleiben gepflegt und hygienisch.",
+    icon: Home,
+    title: "Hygienische & gepflegte Räume",
+    desc: "Saubere Arbeits- und Wohnbereiche sorgen für Wohlbefinden, Sicherheit und einen professionellen Eindruck.",
   },
   {
-    icon: UserRoundCheck,
-    title: "Direkter Ansprechpartner",
-    desc: "Sie haben einen festen Kontakt für Absprachen, Änderungen und kurzfristige Reinigungsanfragen.",
+    icon: User,
+    title: "Persönlicher Ansprechpartner",
+    desc: "Sie haben einen festen Kontakt für Absprachen, Änderungen und kurzfristige Anliegen.",
   },
   {
     icon: ShieldCheck,
-    title: "Zuverlässige Qualitätskontrolle",
-    desc: "Wir prüfen die Ausführung regelmäßig, damit Sauberkeit dauerhaft sichtbar bleibt.",
+    title: "Kontrollierte Qualität",
+    desc: "Wir prüfen regelmäßig unsere Arbeit, damit Sauberkeit dauerhaft auf höchstem Niveau bleibt.",
   },
 ];
 
@@ -33,12 +33,10 @@ export function TrustIndicators() {
               Gebäudereinigung
             </span>
             <h2 className="mt-5 max-w-xl font-display text-3xl font-bold leading-tight text-foreground md:text-5xl">
-              Sauberkeit, auf die sich Ihr Objekt verlassen kann.
+                Zuverlässige Reinigung mit festen Qualitätsstandards.
             </h2>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
-              Novaris reinigt Büros, Wohnanlagen, Treppenhäuser, Glasflächen und private Räume nach
-              klaren Standards. Das Ergebnis sind gepflegte Flächen, hygienische Bereiche und ein
-              professioneller erster Eindruck.
+              Wir reinigen Büros, Wohnanlagen, Treppenhäuser und Glasflächen zuverlässig, hygienisch und individuell abgestimmt auf Ihr Objekt.
             </p>
           </div>
 

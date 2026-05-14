@@ -21,18 +21,27 @@ const reasons = [
 
 export function WhyUs() {
   return (
-    <section id="warum-wir" className="bg-background py-20 md:py-28">
-      <div className="mx-auto grid max-w-7xl gap-12 container-px lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+    <section id="warum-wir" className="bg-background py-20 md:py-32">
+      <div className="mx-auto grid max-w-[92rem] gap-12 container-px lg:grid-cols-[1.28fr_0.82fr] lg:items-center xl:gap-18">
         <div data-reveal>
-          <div className="overflow-hidden rounded-lg">
+          <div className="relative overflow-hidden rounded-2xl border border-border bg-card shadow-[var(--shadow-elegant)]">
             <img
               src={whyImg}
               alt="Professionelles Reinigungsteam von Novaris"
               loading="lazy"
               width={1280}
               height={1280}
-              className="h-[360px] w-full object-cover md:h-[520px]"
+              className="h-[420px] w-full object-cover md:h-[600px] lg:h-[680px]"
             />
+            <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(18,58,120,0.22)_100%)]" />
+            <div className="absolute bottom-5 right-5 rounded-lg border border-border/80 bg-white/92 px-5 py-4 shadow-[0_18px_45px_-22px_rgba(18,58,120,0.45)] backdrop-blur-md md:bottom-7 md:right-7 md:px-6">
+              <p className="font-display text-3xl font-bold leading-none text-foreground md:text-4xl">
+                350+
+              </p>
+              <p className="mt-1 text-xs font-medium text-muted-foreground md:text-sm">
+                Betreute Objekte
+              </p>
+            </div>
           </div>
         </div>
 

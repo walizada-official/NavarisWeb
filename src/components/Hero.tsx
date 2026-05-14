@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
+import { ArrowRight, Building2, Clock3, ShieldCheck } from "lucide-react";
 import heroImg from "@/assets/hero.png";
 
 export function Hero() {
@@ -52,12 +52,16 @@ export function Hero() {
             className="is-visible mt-8 flex flex-wrap items-center gap-x-7 gap-y-3 text-sm text-white/78"
           >
             <span className="inline-flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-white" />
-              Pünktlich, sauber und professionell
+              <ShieldCheck className="w-4 h-4 text-white" />
+              Versicherte Reinigung
             </span>
             <span className="inline-flex items-center gap-2">
-              <ShieldCheck className="w-4 h-4 text-white" />
-              Für Gewerbe, Privat und Hausverwaltungen
+              <Clock3 className="w-4 h-4 text-white" />
+              Flexible Termine
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <Building2 className="w-4 h-4 text-white" />
+              Für Gewerbe & Privat
             </span>
           </div>
         </div>

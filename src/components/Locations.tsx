@@ -51,10 +51,11 @@ export function Locations() {
           >
             <iframe
               title="Karte der Einsatzgebiete rund um Stuttgart"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=8.78%2C48.60%2C9.36%2C48.92&layer=mapnik&marker=48.7758%2C9.1829"
+              src="https://maps.google.com/maps?ll=48.745%2C9.075&z=10&t=m&output=embed"
               className="h-[360px] w-full border-0 md:h-[430px]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
             />
           </div>
         </div>
