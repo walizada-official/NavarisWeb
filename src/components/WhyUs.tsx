@@ -5,7 +5,7 @@ const reasons = [
   {
     icon: UserRoundCheck,
     title: "Persönlicher Ansprechpartner",
-    desc: "Direkte Kommunikation ohne Umwege.",
+    desc: "Baset Behbudi ist Ihr direkter Ansprechpartner für Beratung und Angebot.",
   },
   {
     icon: ClipboardCheck,

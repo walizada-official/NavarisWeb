@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, UserRoundCheck } from "lucide-react";
 
 function WhatsAppIcon() {
   return (
@@ -57,6 +57,17 @@ export function Contact() {
                 Rufen Sie an oder schreiben Sie uns. Wir beraten Sie persönlich und finden die
                 passende Reinigungslösung.
               </p>
+              <div className="mt-7 inline-flex items-center gap-3 rounded-md border border-white/18 bg-white/8 px-4 py-3">
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-md bg-white text-primary">
+                  <UserRoundCheck className="h-5 w-5" strokeWidth={2.1} />
+                </span>
+                <span>
+                  <span className="block text-xs text-primary-foreground/62">Ansprechpartner</span>
+                  <span className="font-display text-lg font-semibold leading-tight">
+                    Baset Behbudi
+                  </span>
+                </span>
+              </div>
             </div>
 
             <div className="grid gap-3 self-center">
