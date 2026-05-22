@@ -22,8 +22,8 @@ export function LegalPage({ eyebrow, title, intro, sections }: LegalPageProps) {
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between container-px">
           <a href="/" className="flex items-center gap-2.5">
             <img src={logoImg} alt="Novaris Logo" width={426} height={387} className="h-10 w-10" />
-            <span className="font-display text-lg font-bold text-foreground">
-              Novaris Facility Management
+            <span className="font-display text-lg font-bold leading-tight text-foreground">
+              Novaris Glas & Gebäudereinigung
             </span>
           </a>
           <a

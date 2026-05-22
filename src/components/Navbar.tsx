@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
 import logoImg from "@/assets/logo.png";
+import logoWhiteImg from "@/assets/logoWhite.png";
 
 function WhatsAppIcon() {
   return (
@@ -46,20 +47,20 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto max-w-7xl container-px flex h-18 md:h-20 items-center justify-between py-4">
-        <a href="#" className="flex items-center gap-2.5 group">
+        <a href="#" className="flex min-w-0 items-center gap-2.5 group">
           <img
-            src={logoImg}
+            src={scrolled ? logoImg : logoWhiteImg}
             alt="Novaris Logo"
             width={426}
             height={387}
-            className="w-10 h-10 md:w-11 md:h-11 object-contain drop-shadow-[0_4px_14px_rgba(18,58,120,0.18)]"
+            className="w-22 h-22 md:w-22 md:h-22 object-contain drop-shadow-[0_4px_14px_rgba(18,58,120,0.18)]"
           />
           <span
-            className={`font-display font-bold text-lg tracking-tight transition-colors ${
+            className={`min-w-0 max-w-[12.5rem] font-display text-sm font-bold leading-tight tracking-tight transition-colors sm:max-w-none sm:text-base md:text-lg ${
               scrolled ? "text-foreground" : "text-white"
             }`}
           >
-            Novaris Facility Management
+            Novaris Glas & Gebäudereinigung
           </span>
         </a>
 

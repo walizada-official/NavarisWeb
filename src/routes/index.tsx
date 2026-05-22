@@ -13,13 +13,16 @@ import { useReveal } from "@/hooks/useReveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Novaris Facility Management - Premium Gebäudereinigung Stuttgart" },
+      { title: "Novaris Glas & Gebäudereinigung - Premium Gebäudereinigung Stuttgart" },
       {
         name: "description",
         content:
-          "Novaris Facility Management - Premium Gebäudereinigung für Gewerbe und Privat in Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung.",
+          "Novaris Glas & Gebäudereinigung - Premium Gebäudereinigung für Gewerbe und Privat in Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung.",
       },
-      { property: "og:title", content: "Novaris Facility Management - Premium Gebäudereinigung" },
+      {
+        property: "og:title",
+        content: "Novaris Glas & Gebäudereinigung - Premium Gebäudereinigung",
+      },
       {
         property: "og:description",
         content:

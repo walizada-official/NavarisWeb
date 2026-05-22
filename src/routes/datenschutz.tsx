@@ -5,10 +5,10 @@ import { LegalPage } from "@/components/LegalPage";
 export const Route = createFileRoute("/datenschutz")({
   head: () => ({
     meta: [
-      { title: "Datenschutz - Novaris Facility Management" },
+      { title: "Datenschutz - Novaris Glas & Gebäudereinigung" },
       {
         name: "description",
-        content: "Datenschutzhinweise von Novaris Facility Management.",
+        content: "Datenschutzhinweise von Novaris Glas & Gebäudereinigung.",
       },
     ],
   }),
@@ -25,7 +25,7 @@ function Datenschutz() {
         {
           title: "Verantwortliche Stelle",
           body: [
-            "Novaris Facility Management",
+            "Novaris Glas & Gebäudereinigung",
             "Baset Behbudi",
             "Grabenstraße 5 ",
             "71272 Renningen",

@@ -31,7 +31,7 @@ export function Hero() {
             data-reveal-delay="2"
             className="is-visible mt-9 max-w-xl text-lg md:text-xl leading-relaxed text-white/82"
           >
-            Novaris Facility Management bietet hochwertige Reinigungslösungen für Unternehmen,
+            Novaris Glas & Gebäudereinigung bietet hochwertige Reinigungslösungen für Unternehmen,
             Wohnanlagen und Privathaushalte in Stuttgart, Böblingen, Sindelfingen, Leonberg und
             Umgebung.
           </p>

@@ -1,6 +1,6 @@
-# Novaris Facility Management
+# Novaris Glas & Gebäudereinigung
 
-Marketing website for Novaris Facility Management, built with React, TanStack Router, Vite, and Tailwind CSS.
+Marketing website for Novaris Glas & Gebäudereinigung, built with React, TanStack Router, Vite, and Tailwind CSS.
 
 ## Local Setup
 

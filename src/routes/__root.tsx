@@ -63,14 +63,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Novaris Facility Management" },
+      { title: "Novaris Glas & Gebäudereinigung" },
       {
         name: "description",
         content:
           "Premium Gebäudereinigung für Gewerbe und Privat in Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung.",
       },
-      { name: "author", content: "Novaris Facility Management" },
-      { property: "og:title", content: "Novaris Facility Management" },
+      { name: "author", content: "Novaris Glas & Gebäudereinigung" },
+      { property: "og:title", content: "Novaris Glas & Gebäudereinigung" },
       {
         property: "og:description",
         content:

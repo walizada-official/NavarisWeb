@@ -15,8 +15,8 @@ export function Locations() {
               Regional für Stuttgart und Umgebung.
             </h2>
             <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground">
-              Novaris Facility Management ist für Unternehmen, Wohnanlagen und Privathaushalte in
-              Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung im Einsatz.
+              Novaris Glas & Gebäudereinigung ist für Unternehmen, Wohnanlagen und Privathaushalte
+              in Stuttgart, Böblingen, Sindelfingen, Leonberg und Umgebung im Einsatz.
             </p>
 
             <div className="mt-7 flex items-start gap-4 rounded-lg border border-border bg-[var(--soft)] p-5">

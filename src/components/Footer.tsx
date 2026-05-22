@@ -52,11 +52,11 @@ export function Footer() {
               alt="Novaris Logo"
               width={426}
               height={387}
-              className="h-10 w-10 object-contain"
+              className="h-24 w-78 object-contain"
             />
-            <span className="font-display text-lg font-bold text-foreground">
-              Novaris Facility Management
-            </span>
+            {/* <span className="font-display text-lg font-bold leading-tight text-foreground">
+              Novaris Glas & Gebäudereinigung
+            </span> */}
           </a>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
             Premium Gebäudereinigung für Unternehmen, Wohnanlagen und Privathaushalte in Stuttgart,
@@ -135,7 +135,9 @@ export function Footer() {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-xs text-muted-foreground md:flex-row md:px-8">
-          <p>© {new Date().getFullYear()} Novaris Facility Management. Alle Rechte vorbehalten.</p>
+          <p>
+            © {new Date().getFullYear()} Novaris Glas & Gebäudereinigung. Alle Rechte vorbehalten.
+          </p>
           <div className="flex items-center gap-6">
             <a href="/impressum" className="hover:text-foreground">
               Impressum
