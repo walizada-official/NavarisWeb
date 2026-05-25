@@ -33,7 +33,7 @@ function Impressum() {
         },
         {
           title: "Kontakt",
-          body: ["Telefon: +49 176 30725490", "E-Mail: info@novaris-facility.de"],
+          body: ["Telefon: +49 176 30725490", "E-Mail: info@novaris-ggr.de"],
         },
         {
           title: "Verantwortlich für den Inhalt",

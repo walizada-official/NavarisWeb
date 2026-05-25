@@ -22,8 +22,8 @@ const contactItems = [
   {
     icon: Mail,
     label: "E-Mail",
-    value: "info@novaris-facility.de",
-    href: "mailto:info@novaris-facility.de",
+    value: "info@novaris-ggr.de",
+    href: "mailto:info@novaris-ggr.de",
   },
   {
     icon: MapPin,

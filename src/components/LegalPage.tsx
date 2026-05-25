@@ -60,11 +60,11 @@ export function LegalPage({ eyebrow, title, intro, sections }: LegalPageProps) {
                 <h2 className="font-display text-xl font-bold text-foreground">Kontakt</h2>
                 <div className="mt-5 space-y-3 text-sm text-muted-foreground">
                   <a
-                    href="mailto:info@novaris-facility.de"
+                    href="mailto:info@novaris-ggr.de"
                     className="flex items-center gap-3 transition-colors hover:text-foreground"
                   >
                     <Mail className="h-4 w-4 text-primary" />
-                    info@novaris-facility.de
+                      info@novaris-ggr.de
                   </a>
                   <a
                     href="tel:+4917630725490"

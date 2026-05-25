@@ -29,7 +29,7 @@ function Datenschutz() {
             "Baset Behbudi",
             "Grabenstraße 5 ",
             "71272 Renningen",
-            "E-Mail: info@novaris-facility.de",
+            "E-Mail: info@novaris-ggr.de",
             "Telefon: +49 176 30725490",
           ],
         },
